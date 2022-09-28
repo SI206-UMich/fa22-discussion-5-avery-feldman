@@ -117,9 +117,9 @@ class TestAllMethods(unittest.TestCase):
 		warehouse2 = Warehouse() # Create a new warehouse object
 		warehouse2.add_item(self.item1)
 		warehouse2.add_item(self.item2)
-		maxstock2 = warehouse2.get_max_price()
+		maxprice2 = warehouse2.get_max_price()
 
-		self.assertEqual(maxstock2,self.item1)
+		self.assertEqual(maxprice2,self.item1)
 		pass
 
 
