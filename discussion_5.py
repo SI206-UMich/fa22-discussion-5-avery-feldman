@@ -121,7 +121,7 @@ class TestAllMethods(unittest.TestCase):
 
 		self.assertEqual(maxstock2,self.item1)
 		pass
-		
+
 
 def main():
 	unittest.main()
